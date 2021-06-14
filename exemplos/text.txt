@@ -1,1 +1,3 @@
 Hoje a tarde esta fria.
+Acho que estou começando a entender o Git e GitHub
+WooHoo!
