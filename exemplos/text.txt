@@ -1,1 +1,3 @@
 Hoje a tarde esta fria.
+Nossa estou conseguindo entender como funciona o Git e GitHub.
+WooHoo!
