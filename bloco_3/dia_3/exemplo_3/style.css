@@ -1,0 +1,13 @@
+h1, p {
+    text-align: center;
+}
+li:hover {
+    background-color: cadetblue;
+}
+li:active {
+    color: cornsilk;
+    font-weight: 600;
+}
+.lista {
+    list-style: none;
+}
