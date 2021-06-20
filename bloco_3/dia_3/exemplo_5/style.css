@@ -24,3 +24,32 @@ ol li {
 ul li :nth-last-of-type(1) {
     color:
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#stackOverflow:hover {
+    background-color: white;
+    font-weight: bold;
+    color: orange;
+}
+#w3Schools:hover {
+    background-color: white;
+    font-weight: bold;
+    color: green;
+}
+#mdnWebDocs:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+#devDocs:hover {
+    background-color: white;
+    font-weight: bold;
+    color: yellow;
+}
+#trybe:hover {
+    background-color: white;
+    font-weight: bold;
+    color: green;
+}
