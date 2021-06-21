@@ -1,4 +1,6 @@
-
+h3 {
+    margin: 0;
+}
 /*corPrimária*/
 div:hover:nth-of-type(2n+1) {
     border-style: solid;
@@ -6,6 +8,12 @@ div:hover:nth-of-type(2n+1) {
 div:hover:nth-of-type(2n) {
     border-style: solid;
 }
-h3:nth-of-type(1) {
+div:nth-child(3) {
     color: yellowgreen;
+}
+div:nth-child(4) {
+    color: aqua;
+}
+div:nth-child(5) {
+    color: blue;
 }
