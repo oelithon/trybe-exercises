@@ -14,5 +14,8 @@ console.log(typeof patientInfo);
 console.log(typeof patientEmail);
 
 // runCode para ver o resultado
-
+// Experimente executar o comando console.log(typeof patientAge) e veja o que acontece!
 console.log(typeof patientAge);
+// Retornou undefined, essa variável ainda não possui uma atrubuição.
+
+// Experimente também trocar o valor de patientId = 50 para patientId = '50' . Execute novamente um console.log() para imprimir o tipo dessa variável após a modificação. Você verá que o retorno agora é uma string pois colocamos o número 50 dentro das aspas. O JavaScript interpreta como string tudo o que estiver entre aspas.
