@@ -1,4 +1,4 @@
-// Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas variáveis, a e b , definidas no começo com os valores que serão operados. Faça programas para:
+//1. Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas variáveis, a e b , definidas no começo com os valores que serão operados. Faça programas para:
 
 // Adição
 
@@ -54,3 +54,14 @@ let resultado = a % b;
 console.log(resultado);
 */
 
+//2. Faça um programa que retorne o maior de dois números. Defina no começo do programa duas variáveis com os valores que serão comparados.
+
+let valor1 = 4;
+let valor2 = 8;
+let resultado;
+
+if (valor1 > valor2) {
+    console.log(resultado = valor1);
+} else {
+    console.log(resultado = valor2);
+}
