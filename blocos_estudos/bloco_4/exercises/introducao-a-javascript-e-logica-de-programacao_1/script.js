@@ -70,7 +70,7 @@ if (valor1 > valor2) {
 
 //3. Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados.
 
-
+/*
 let valor1 = 8;
 let valor2 = 1;
 let valor3 = 5;
@@ -81,4 +81,19 @@ if (valor1 > valor2 && valor1 > valor3) {
     console.log(valor2);
 } else {
     console.log(valor3);
+}
+*/
+
+//4. Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
+
+let valor;
+
+if (valor > 0) {
+    console.log("positivo");
+} else if (valor < 0) {
+    console.log("negativo");
+} else if (valor == 0) {
+    console.log("zero");
+} else {
+    console.log("indefinido");
 }
