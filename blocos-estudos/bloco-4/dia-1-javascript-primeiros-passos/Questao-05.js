@@ -2,9 +2,20 @@
 //Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
 //Um ângulo será considerado inválido se não tiver um valor positivo.
 
-let angleA = 45;
-let angleB = 90;
-let angleC = 45;
+let anguloA = 100;
+let anguloB = 30;
+let anguloC = 50;
 
-for (let index = angleA + angleB + angleC) {
+let somaAngulos = anguloA + anguloB + anguloC;
+
+if (anguloA < 0) {
+    console.log("Angulo A tem valor inválido.");
+} else if (anguloB < 0) {
+    console.log("Angulo B tem valor inválido.");
+} else if (anguloC < 0) {
+    console.log("Angulo C tem valor inválido.");
+} else if (somaAngulos == 180) {
+    console.log(true);
+} else {
+    console.log(false);
 }
