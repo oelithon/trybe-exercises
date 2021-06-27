@@ -24,7 +24,7 @@ Como dica, você pode pesquisar uma função que faz uma string ficar com todas 
 Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
 Exemplo: bishop (bispo) -> diagonals (diagonais)
 
-- [] 7.Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+- [x] 7.Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
 Porcentagem >= 90 -> A
 Porcentagem >= 80 -> B
 Porcentagem >= 70 -> C
