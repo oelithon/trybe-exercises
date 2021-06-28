@@ -22,7 +22,7 @@
 //O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 (salário-base - valor IR) = R$ 2.612,55.
 //Resultado: R$ 2.612,55.
 //Dica: que tal identificar as alíquotas com variáveis de nomes explicativos?
-let salarioBruto = 3000;
+let salarioBruto = 6000;
 let aliquotaINSS;
 let valorIR;
 
@@ -53,10 +53,11 @@ if (salarioBase <= 1903.98) {
 }
 
 let salarioLiquido = salarioBase - valorIR;
+
 console.log("Salário Bruto: " + salarioBruto + " reais.");
 console.log("Salário-Base: " + salarioBase + " reais.");
 console.log("-----------------------------------------");
 console.log("Valor de INSS: " + aliquotaINSS + " reais.");
-console.log("Valor de IR: " + Math.trunc(valorIR) + " reais.");
+console.log("Valor de IR: " + valorIR + " reais.");
 console.log("-----------------------------------------");
 console.log("Salário Líquido: " + salarioLiquido + " reais.");
