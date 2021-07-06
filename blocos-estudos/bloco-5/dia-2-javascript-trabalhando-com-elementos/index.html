@@ -65,13 +65,17 @@
 
       // Adicione a tag div com a classe main-content como filho da tag body;
       let addDiv = document.createElement('div');
-      addDiv.className = '.main-content';
+      addDiv.className = 'main-content';
       document.querySelector('body').appendChild(addDiv);
 
       // Adicione a tag div com a classe center-content como filho da tag div criada no passo 2;
       let addSubDiv = document.createElement('div');
-      addSubDiv.className = '.center-content';
+      addSubDiv.className = 'center-content';
       document.querySelector('div').appendChild(addSubDiv);
+
+      // Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
+      let addParagraph = document.createElement('p');
+      document.querySelector('.center-content').appendChild(addParagraph);
       
     </script>
   </body>
