@@ -63,8 +63,10 @@
           document.getElementById("sobre").style.textTransform = "uppercase";
         
         //Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-          console.log(document.getElementsByTagName("p"));
-
+          let conteudoParagrafo = document.getElementsByTagName("p");
+          for (let index = 0; index < conteudoParagrafo.length; index += 1) {
+            console.log(conteudoParagrafo[index]);
+          }
     </script>
   </body>
 </html>
