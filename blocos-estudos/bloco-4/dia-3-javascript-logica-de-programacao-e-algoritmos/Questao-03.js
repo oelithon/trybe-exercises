@@ -17,13 +17,19 @@ console.log("*****");
 */
 
 let n = 5;
-let space = " ";
 let caractere = "*";
 let resultado = "";
+let base = n;
 
 for (index = 0; index < n; index += 1) {
-  resultado += caractere;
-  if (resultado === "*") {
-    resultado += space;
+  for (index2 = 0; index2 <= n; index2 += 1) {
+    if (index2 < base) {
+      resultado = resultado + ' ';
+    } else {
+      resultado = resultado + caractere;
+    }
   }
+  console.log(resultado);
+  resultado = '';
+  base -= 1;
 }
