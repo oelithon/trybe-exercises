@@ -18,7 +18,7 @@ n = 5
 ****
 *****
 
-- [] 3- Agora inverta o lado do triângulo.
+- [x] 3- Agora inverta o lado do triângulo.
 Por exemplo:
 n = 5
 
@@ -28,7 +28,7 @@ n = 5
  ****
 *****
 
-- [] 4- Depois, faça uma pirâmide com n asteriscos de base:
+- [x] 4- Depois, faça uma pirâmide com n asteriscos de base:
 n = 5
 
   *
