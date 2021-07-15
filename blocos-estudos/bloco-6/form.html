@@ -6,8 +6,37 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <fieldset>
-    <input type="text">
-  </fieldset>
+  <form action="" method="get">
+    <fieldset class="box-style">
+
+      <!--DADOS PESSOAIS-->
+      <label for="full-name">Nome:</label>
+      <input type="text" id="full-name" required>
+      
+      <label for="e-mail">e-mail:</label>
+      <input type="text" id="e-mail" required>
+      <br>
+      <label for="cpf">CPF:</label>
+      <input type="text" id="cpf" required>
+      <br>
+
+      <!--ENDEREÇO-->
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" required>
+
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade" required>
+
+      <label for="estado">Estado:</label>
+      <select name="" id="estado" required>
+      </select>
+      <br>
+
+      <p>Complemento:</p>
+      <input type="radio" id="casa" name="complemento"><label for="casa">Casa</label>
+      <input type="radio" id="ap" name="complemento"><label for="ap">Apartamento</label>
+    </fieldset>
+  </form>
+  <script src="/script.js"></script>
 </body>
 </html>
