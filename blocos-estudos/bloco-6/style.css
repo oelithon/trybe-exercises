@@ -13,6 +13,11 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .box-style {
   margin: 20px auto;
   padding: 50px;

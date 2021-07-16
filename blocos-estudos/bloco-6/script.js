@@ -6,3 +6,6 @@ let uf = ['Acre','Alagoas','Amapá','Amazonas','Bahia','Ceará','Distrito Federa
 for (let index = 0; index < uf.length; index += 1) {
   estado.appendChild(document.createElement('option')).innerText = uf[index];
 }
+
+// Verifica Formato Data
+const date = document.querySelector('#date');

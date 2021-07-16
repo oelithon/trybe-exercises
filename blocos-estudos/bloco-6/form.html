@@ -14,6 +14,7 @@
     </header>
     <fieldset class="box-style">
       <!--DADOS PESSOAIS-->
+      <h3>Dados Pessoais</h3>
       <label for="full-name">Nome:</label>
       <input maxlength="40" class="form-control mb-3" type="text" id="full-name" required>
       
@@ -41,6 +42,20 @@
         <input class="form-check-input" type="radio" id="ap" name="complemento">
         <label class="form-check-label" for="ap">Apartamento</label>
       </div>
+    </fieldset>
+    <fieldset class="box-style">
+      <h3>Experiência Profissional</h3>
+      <label for="resumo">Resumo do Currículo:</label>
+      <textarea maxlength="1000" class="form-control mb-3" name="resumo" id="resumo" cols="30" rows="5"></textarea>
+
+      <label for="cargo">Cargo:</label>
+      <input class="form-control mb-3" maxlength="40" type="text" id="cargo" required>
+
+      <label for="">Descrição do cargo:</label>
+      <input maxlength="500" class="form-control mb-3" type="text" required>
+
+      <label for="date">Data de início:</label>
+      <input class="form-control mp-3" type="text" id="date" required>
     </fieldset>
   </form>
   <!-- JavaScript Bundle with Popper -->
