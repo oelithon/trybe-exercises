@@ -9,6 +9,10 @@ body {
   line-height: 1.5;
 }
 
+h1 {
+  text-align: center;
+}
+
 .box-style {
   margin: 20px auto;
   padding: 50px;
