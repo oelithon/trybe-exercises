@@ -76,6 +76,8 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 350px;
+  flex-grow: 1;
+  align-self: center;
   margin: 20px;
 }
 
