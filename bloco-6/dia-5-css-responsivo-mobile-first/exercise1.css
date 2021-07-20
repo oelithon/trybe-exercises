@@ -1,11 +1,21 @@
-body {
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* GLOBAL SETTINGS */
+body {
+  background-color: #f1f1f1;
+  font-family: 'Lato', sans-serif;
 }
 h1 {
-
+  font-size: 30px;
 }
 h2 {
-
+  font-size: 20px;
+  font-weight: 400;
 }
 
 img {
