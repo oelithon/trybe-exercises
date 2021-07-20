@@ -59,3 +59,37 @@ figure {
     text-align: center;
   }
 }
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+    text-align: center;
+    padding: 5%;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 2%;
+  }
+
+  p {
+    text-align: justify;
+    padding: 0 5%;
+    margin: 10px;
+  }
+
+  main div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main div figure img {
+    width: 290px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  main div figure figcaption {
+    text-align: center;
+  }
+}
