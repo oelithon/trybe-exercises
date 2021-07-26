@@ -5,8 +5,10 @@
 
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
-// Função utilizada para realizar a comparação dos números no array:
+// Usei o sort para organizar os números:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+// Função utilizada para realizar a comparação dos números no array:
 const compareNumbers = (a, b) => {
   return a - b;
 }
