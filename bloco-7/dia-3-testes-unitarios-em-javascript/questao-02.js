@@ -20,3 +20,8 @@ function myRemove(arr, item) {
 
 const testeUm = myRemove([1, 2, 3, 4], 3);
 assert.ok(testeUm);
+console.log(testeUm);
+
+const testeDois = myRemove([1, 2, 3, 4,], 5);
+assert.ok(testeDois);
+console.log(testeDois);
