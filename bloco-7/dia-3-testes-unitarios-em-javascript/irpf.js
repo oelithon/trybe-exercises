@@ -7,3 +7,18 @@
 
 // Escreva uma função que, dado um valor de salário, retorne a alíquota a ser
 // aplicada para descontar o IR. Escreva os cenários de teste.
+
+const assert = require('assert');
+
+let irpf = (salario) => {
+  if (salario >= 0 && salario <= 1903.98) {
+    return 'isento';
+  } else if (salario >= 1903.99 && salario <= 2826.65) {
+    return '7,50%';
+  } else if (salario >= 2826.66 && salario <= 3751.05) {
+    return '15,00%';
+  } else if (salario >= 3451.06 && salario <= 4664.68) {
+    return '22,50%';
+  } else (salario > 4664.69)
+    return '27,50%';
+};
