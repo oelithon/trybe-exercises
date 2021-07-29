@@ -1,6 +1,6 @@
 // 1 - Crie uma função que retorne um objeto no formato { nomeCompleto, email } representando uma nova pessoa contratada. Passe sua função como parâmetro da HOF newEmployees para criar cada pessoa contratada em seu respectivo id . A sua função deve receber como parâmetro o nome completo da pessoa funcionária e a partir dele gerar automaticamente um email no formato nome_da_pessoa@trybe.com .
 
-const newEmployees = () => {
+const newEmployees = (person) => {
   const employees = {
     id1: '', // Nome: Pedro Guerra -> Chame sua função passando o nome Pedro Guerra como parâmetro, substituindo as aspas
     id2: '', // Nome: Luiza Drumond -> Chame sua função passando o nome Luiza Drumond como parâmetro, substituindo as aspas
@@ -9,4 +9,19 @@ const newEmployees = () => {
   return employees;
 };
 
-newEmployees(Object.id1.push('Pedro Guerra'));
+const person = (nome) => {
+  const email = nome.toLowerCase().split(' ').join('_');
+  const pessoa = {
+    name: nome,
+    email: `${email}@trybe.com`,
+  }
+  return pessoa;
+}
+
+console.log(newEmployees());
+console.log(person('Elithon Silva'));
+
+// Referências e anotações:
+// Utilizei o split(' ') para transformar a string passada em um array e separar as palavras quando tiver um espaço. E join('_') para verificar e substituir um espaço pelo caractere informado.
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join
