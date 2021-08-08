@@ -10,3 +10,8 @@ const numberGenerator = (number) => {
 
 const yourNumber = 2;
 console.log(numberGenerator(yourNumber));
+
+// Com Math.random() é possível gerar números aleatórios.
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+// Usei Math.round() para ter o retorno de um número arredondado para o inteiro mais próximo.
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/round
