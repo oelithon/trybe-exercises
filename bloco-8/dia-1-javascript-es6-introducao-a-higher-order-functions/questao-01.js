@@ -18,8 +18,10 @@ const person = (nome) => {
   return pessoa;
 }
 
-console.log(newEmployees());
 console.log(person('Elithon Silva'));
+console.log(person('Pedro Guerra'));
+console.log(person('Luiza Drumond'));
+console.log(person('Carla Paiva'));
 
 // Referências e anotações:
 // Utilizei o split(' ') para transformar a string passada em um array e separar as palavras quando tiver um espaço. E join('_') para verificar e substituir um espaço pelo caractere informado.
