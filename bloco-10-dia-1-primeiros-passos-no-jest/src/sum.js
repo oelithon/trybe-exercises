@@ -1,12 +1,10 @@
 const sum = (a, b) => {
-  if (typeof a === 'number' || typeof b === 'number') {
-    return a + b;
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    throw new Error('os parametros devem ser do tipo number');
   }
 
-  throw new Error('os parametros devem ser do tipo number')
+  return a + b;
 };
-
-console.log(sum(1, '2'));
 
 module.exports = {
   sum,
