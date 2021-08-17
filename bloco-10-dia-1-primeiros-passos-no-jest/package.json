@@ -1,0 +1,15 @@
+{
+  "name": "bloco-10-dia-1-primeiros-passos-no-jest",
+  "version": "1.0.0",
+  "description": "Parte I Refaça os exercícios 1 a 5 do conteúdo de Testes unitários em JavaScript , dessa vez utilizando Jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
