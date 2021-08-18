@@ -1,7 +1,7 @@
 Parte I
 Refaça os exercícios 1 a 5 do conteúdo de Testes unitários em JavaScript , dessa vez utilizando Jest.
 
-- [] 1. A função sum(a, b) retorna a soma do parâmetro a com o b:
+- [x] 1. A função sum(a, b) retorna a soma do parâmetro a com o b:
 
 Teste se o retorno de sum(4, 5) é 9
 Teste se o retorno de sum(0, 0) é 0
