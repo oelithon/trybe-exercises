@@ -4,9 +4,12 @@ import './App.css';
 
 function App() {
   return (
-    <section className="App">
-      <Pokedex pokemons={data}/>
-    </section>
+    <main>
+      <h1>Pokedex</h1>
+      <section className="App">
+        <Pokedex pokemons={data} />
+      </section>
+    </main>
   );
 }
 
